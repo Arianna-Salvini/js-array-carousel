@@ -7,6 +7,16 @@
 body {
     height: 100vh;
 }
+/* utilities */
+
+img:not(.active){
+display: none;
+}
+
+.active {
+    display: block;
+}
+
 /* carousel */
 
 .container {
