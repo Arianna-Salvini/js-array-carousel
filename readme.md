@@ -44,6 +44,12 @@ Al click dell'utente sulle frecce, il programma cambierà l’immagine attiva, c
 ## BONUS 1:
 Aggiungere il ciclo infinito del carosello. Ovvero se è attiva la prima immagine e l'utente clicca la freccia per andare all’immagine precedente, dovrà comparire l’ultima immagine dell’array e viceversa.
 
+- Step 5: create an infinite carousel loop
+
+    -IF current image is the last one put next image at index 0
+    
+    - IF you ar at first image put previews image at index 5
+
 ## BONUS 2:
 Aggiungere la visualizzazione di tutte le thumbnails sulla destra dell’immagine grande attiva, come nello screenshot proposto. Tutte le miniature avranno un layer di opacità scura, tranne quella corrispondente all’immagine attiva, che invece avrà un bordo colorato. Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di miniatura attiva.
 
