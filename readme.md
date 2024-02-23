@@ -34,6 +34,13 @@ Adesso rimuoviamo tutto il markup statico e inseriamo tutte le immagini dinamica
 Al click dell'utente sulle frecce, il programma cambierà l’immagine attiva, che quindi verrà visualizzata al posto della precedente.
  - Step 4: Click sui pulsanti per cambiare immagine
 
+    -take variables of "next" and "prev" button
+
+    - add 2 event listener to click in order to change "active" class throuw the list
+        -1 for next => incremetal
+        -1 for prev => deremetal
+    
+
 ## BONUS 1:
 Aggiungere il ciclo infinito del carosello. Ovvero se è attiva la prima immagine e l'utente clicca la freccia per andare all’immagine precedente, dovrà comparire l’ultima immagine dell’array e viceversa.
 
