@@ -25,4 +25,12 @@ for (let i = 0; i < slidesImg.length; i++) {
 // On click Add event listener to button prev and next
 console.log(next, prev);
 
+next.addEventListener('click', function(){
+    console.log('next');
+})
+
+prev.addEventListener('click', function(){
+    console.log('prev');
+})
+
 
