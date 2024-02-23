@@ -19,9 +19,20 @@ avremo così la struttura base e gli stili pronti per poterci poi concentrare so
 
 # MILESTONE 2
 Adesso rimuoviamo tutto il markup statico e inseriamo tutte le immagini dinamicamente servendoci dell'array fornito e un semplice ciclo for che concatena un template literal. Tutte le immagini saranno nascoste, tranne la prima, che avrà una classe specifica che la renderà visibile. Al termine di questa fase ci ritroveremo con lo stesso slider stilato nella milestone 1, ma costruito dinamicamente attraverso JavaScript.
+
+- Step 3: Creare dinamicamente l'inserimento di immagini
+    - Creare l'array per le immaagini
+
+    - Creare una classe che attivi la visione di una sola immagine
+        - nel css nascondere tutte le immagini senza la classe di attivazione
+
+    - Creare variabile di partenza che abbia come valore 0 per avere l'immagine di partenza 
+
+    - Ciclare le immagini per aggiungere la classe di attivazione all'immagine successiva
+
 # MILESTONE 3
 Al click dell'utente sulle frecce, il programma cambierà l’immagine attiva, che quindi verrà visualizzata al posto della precedente.
-
+ - Step 4: Click sui pulsanti per cambiare immagine
 
 ## BONUS 1:
 Aggiungere il ciclo infinito del carosello. Ovvero se è attiva la prima immagine e l'utente clicca la freccia per andare all’immagine precedente, dovrà comparire l’ultima immagine dell’array e viceversa.
