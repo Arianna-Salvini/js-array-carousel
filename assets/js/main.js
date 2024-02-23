@@ -8,7 +8,9 @@ console.log(slidesImg);
 let activeImg = 3
 const viewElement = document.querySelector('.slides');
 console.log(viewElement);
-console.log(activeImg);;
+console.log(activeImg);
+const next = document.getElementById("next");
+const prev = document.getElementById("prev");
 
 // Start for loop
 
@@ -21,8 +23,6 @@ for (let i = 0; i < slidesImg.length; i++) {
 };
 
 // On click Add event listener to button prev and next
-
-const next = document.getElementById
-
+console.log(next, prev);
 
 
