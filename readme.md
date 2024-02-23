@@ -1,6 +1,17 @@
 ## Consegna:
 
-Dato un array contenente una lista di cinque immagini, creare un carosello come nello screenshot allegato.
+Dato un array contenente una lista di cinque immagini
+- Step 1: creare un layout in HTML
+  - container
+    - div per img
+    - div per next button
+    - div per prev button
+
+- Step 2: Sistemare lo style in css
+
+creare un carosello come nello screenshot allegato.
+
+![alt text](./assets/img/carosello_mono_array.png)
 
 # MILESTONE 1
 Per prima cosa, creiamo il markup statico: costruiamo il container e inseriamo un'immagine grande al centro: avremo così la struttura base e gli stili pronti per poterci poi concentrare solamente sull'aspetto logico.
