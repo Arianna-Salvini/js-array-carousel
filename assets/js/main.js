@@ -5,7 +5,7 @@ const slidesImg = ["01.webp", "02.webp", "03.webp", "04.webp", "05.webp"];
 console.log(slidesImg);
 
 //cost/Let
-let activeImg = 
+let activeImg = 3
 const viewElement = document.querySelector('.slides');
 console.log(viewElement);
 console.log(activeImg);;
@@ -20,7 +20,9 @@ for (let i = 0; i < slidesImg.length; i++) {
 
 };
 
+// On click Add event listener to button prev and next
 
+const next = document.getElementById
 
 
 
