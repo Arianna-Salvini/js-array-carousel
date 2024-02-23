@@ -7,10 +7,11 @@
 body {
     height: 100vh;
 }
+
 /* utilities */
 
-img:not(.active){
-display: none;
+img:not(.active) {
+    display: none;
 }
 
 .active {
@@ -32,7 +33,7 @@ display: none;
     .viewer {
         max-height: 270px;
         position: relative;
-        
+
 
         .slides {
             height: 100%
@@ -52,13 +53,12 @@ display: none;
         border-radius: 50%;
         background-color: rgba(211, 211, 211, 0.5);
         position: absolute;
-        right: 50%;
-        transform: translate(0, 0, 0, -50%);
+        left: 50%;
+        transform: translatex(-50%);
     }
 
     #next {
         top: 10px;
-        
     }
 
     #prev {
