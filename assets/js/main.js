@@ -12,7 +12,7 @@ const next = document.getElementById("next");
 const prev = document.getElementById("prev");
 
 // Start for loop
-for (let i = 0; i < slidesImg.length -1; i++) {
+for (let i = 0; i < slidesImg.length; i++) {
     const singelImage = slidesImg[i];
     let imgMarkup = `<img class=" ${i === activeImg ? 'active' : ''}" src="./assets/img/${singelImage}" alt="">`;
     // console.log(imgMarkup);
@@ -25,9 +25,11 @@ next.addEventListener('click', function () {
     // console.log('next');
   
     activeImg++
-    let maxIndexLenth = (slidesImg.length -1)
+    let maxIndexLenth = slidesImg.length -1
+ 
+    console.log(activeImg);
 
-    if (activeImg >= maxIndexLenth){
+    if (activeImg > maxIndexLenth){
         activeImg = 0;
     }
 
@@ -39,6 +41,8 @@ next.addEventListener('click', function () {
 
     const allImg = document.querySelectorAll(".slides>img")
     allImg[activeImg].classList.add('active')
+    
+    console.log(allImg[activeImg]);
 
 })
 //Prev//
@@ -46,21 +50,25 @@ prev.addEventListener('click', function () {
     // console.log('prev');
 
     activeImg--
-    let maxIndexLenth = (slidesImg.length -1)
 
     if (activeImg < 0) {
-        activeImg == maxIndexLenth}
+        activeImg =  slidesImg.length -1}
+
+        console.log(activeImg);
 
     const currentImg = document.querySelector('img.active')
-    // console.log(currentImg);
+    console.log(currentImg);
 
     currentImg.classList.remove('active')
     // console.log(currentImg);
 
     const allImg = document.querySelectorAll(".slides>img")
-    // console.log(allImg);
+    console.log(allImg[activeImg]);
+
 
     allImg[activeImg].classList.add('active')
+
+
 })
 
 
