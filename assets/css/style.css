@@ -21,7 +21,7 @@ img:not(.active) {
 /* carousel */
 
 .container {
-    max-width: 600px;
+    max-width: 900px;
     height: 90%;
     margin: 5% auto 5%;
     display: flex;
@@ -31,7 +31,7 @@ img:not(.active) {
 
 
     .viewer {
-        max-height: 270px;
+        max-height: 405px;
         position: relative;
 
 
